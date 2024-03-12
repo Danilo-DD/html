@@ -3,19 +3,19 @@
         <title>Pizzaria do Carmo</title>
     </head>
     <body>
-        <form method="post">
+        <form method="post" autocomplete="off">
         <h1>Escolha como será feita sua pizza:</h1>
         <hr/>
-        <h2><u>Tipo de massa:</u></h2>
- <div>
     <fieldset>
+        <legend><h2>Tipo de massa:</h2></legend>
+ <div>
         <input type="radio" name="massa" value="integral"><b>Integral</b><br>
         <input type="radio" name="massa" value="italiana"><b>Italiana</b><br>
         <input type="radio" name="massa" value="chocolate"><b>Chocolate</b><br>
     </fieldset>
 </div>
-        <h2><u>Sabores:</u></h2>
     <fieldset>
+        <legend><h2>Sabores:</h2></legend>
         <p><i>Escolha até 2 sabores<sup>*</sup></i></p>
         <input type="checkbox" name="recheios[]" value="frango-catupiry"><b>Frango com catupiry</b><br>
         <input type="checkbox" name="recheios[]" value="calabresa"><b>Calabresa acebolada</b><br>
@@ -23,13 +23,13 @@
         <input type="checkbox" name="recheios[]" value="chocolate"><b>Chocolate ao leite</b><br>
         <input type="checkbox" name="recheios[]" value="banana com canela"><b>Banana com canela</b><br>
     </fieldset>
-        <h2><u>Borda recheada:</u></h2>
     <fieldset>
+        <legend><h2>Borda recheada:</h2></legend>
         <input type="radio" name="borda" value="sim"><b>Sim</b><br>
         <input type="radio" name="borda" value="não"><b>Não</b><br>
     </fieldset>
-        <h2><u>Bebidas:</u></h2>
     <fieldset>
+        <legend><h2>Bebidas:</h2></legend>
         <input type="radio" name="bebidas" value="água"><b>Água</b><br>
         <input type="radio" name="bebidas" value="coca-cola litro"><b>Coca-Cola 2L</b><br>
         <input type="radio" name="bebidas" value="suco laranja"><b>Suco de Laranja</b><br>
@@ -39,7 +39,7 @@
     <br>
    
 
-     <button type="submit"> <a href="roomTesteLink.html" target="_blank">Finalizar Pedido</a></button></a>
+     <button type="submit"><a href="roomTesteLink.html" target="_self">Finalizar Pedido</a></button></a>
 
     </form>
     </body>
